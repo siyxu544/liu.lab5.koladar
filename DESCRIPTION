@@ -1,0 +1,30 @@
+Package: liu.lab5.koladar
+Type: Package
+Title: An R Interface to the Swedish Kolada Public Data API
+Version: 1.0.0
+Authors@R: c(
+    person(given = "Siyuan", family = "Xu", email = "ningschue@gmail.com", role = c("aut", "cre")),
+    person(given = "Mohan", family = "Zhang", email = "mohzh143@student.liu.se", role = c("aut")),
+    person(given = "Chenzhi", family = "Ni", email = "cheni622@student.liu.se", role = c("aut"))
+    )
+Description: Provides an R interface to the Swedish 
+    'Kolada' database API (<https://www.kolada.se/om-oss/api/>). 
+    The Kolada database is a comprehensive collection of key indicators 
+    and statistics regarding Swedish municipalities. This package 
+    serves as a high-level wrapper, abstracting away the complexities of 
+    the underlying web API. It offers functions to discover available 
+    metadata, such as key performance indicators (KPIs) and 
+    municipalities, and to fetch specific data points, returning them in 
+    tidy data frames suitable for analysis in R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    httr2,
+    purrr,
+    tibble,
+    tidyr
