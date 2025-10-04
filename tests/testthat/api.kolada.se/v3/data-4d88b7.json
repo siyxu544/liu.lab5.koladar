@@ -1,0 +1,35 @@
+{
+    "values": [
+        {
+            "values": [
+                {
+                    "gender": "K",
+                    "count": 1,
+                    "status": "",
+                    "value": 82526.0,
+                    "isdeleted": false
+                },
+                {
+                    "gender": "M",
+                    "count": 1,
+                    "status": "",
+                    "value": 85509.0,
+                    "isdeleted": false
+                },
+                {
+                    "gender": "T",
+                    "count": 1,
+                    "status": "",
+                    "value": 168035.0,
+                    "isdeleted": false
+                }
+            ],
+            "kpi": "N01951",
+            "period": 2024,
+            "municipality": "0580"
+        }
+    ],
+    "next_url": null,
+    "previous_url": null,
+    "count": 1
+}

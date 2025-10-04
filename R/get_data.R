@@ -16,9 +16,9 @@
 #' # Get total population for Linköping (0580) for the year 2022
 #' population_data <- get_data(kpi_id = "N01951", municipality_id = "0580", year = "2022")
 #'
-#' # Get data for multiple KPIs and multiple years for one municipality
-#' multi_data <- get_data(kpi_id = c("N00005", "N00945"),
-#'                        municipality_id = "0580",
+#' # Get data for multiple KPIs and multiple years for multiple municipalities
+#' multi_data <- get_data(kpi_id = c("N01951", "N01953"),
+#'                        municipality_id = c("0580", "0001"),
 #'                        year = c("2020", "2021", "2022"))
 #' }
 get_data <- function (kpi_id = NULL,
