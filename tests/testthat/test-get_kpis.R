@@ -1,4 +1,3 @@
-.mockPaths("tests/testthat")
 httptest2::with_mock_api({
   test_that("get_kpis() returns a tibble", {
     all_kpis <- get_kpis()

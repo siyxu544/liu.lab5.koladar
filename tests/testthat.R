@@ -7,6 +7,7 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
+library(httptest2)
 library(liu.lab5.koladar)
 
 test_check("liu.lab5.koladar")
