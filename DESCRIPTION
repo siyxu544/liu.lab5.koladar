@@ -20,8 +20,11 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: 
-    httptest2,
+    httptest2,    
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
+VignetteBuilder: knitr 
 RoxygenNote: 7.3.3
 Imports: 
     dplyr,
