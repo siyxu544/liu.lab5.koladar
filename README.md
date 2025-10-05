@@ -72,3 +72,11 @@ print(multi_data)
 #   ℹ 26 more rows
 #   ℹ Use `print(n = ...)` to see more rows
 ```
+
+## Tests
+
+The package uses **testthat** and **httptest2** to test API calls with recorded fixtures:
+
+```r
+testthat::test_local()
+```
