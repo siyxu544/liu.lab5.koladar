@@ -60,7 +60,7 @@ get_data <- function (kpi_id = NULL,
   # tidy_data <- tidyr::unnest(initial_tibble, cols = c("values"))
   tidy_data <- initial_tibble %>%
     dplyr::mutate(values = purrr::map(.data$values, ~ tibble::as_tibble(.x))) %>%
-    tidyr::unnest(.data$values)
+    tidyr::unnest("values")
 
   return(tidy_data)
 }
